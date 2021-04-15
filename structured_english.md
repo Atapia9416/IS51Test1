@@ -1,0 +1,4 @@
+The goal of the code is to compare two different salary options. Option 1 is a linearly increasing salary, you make $100
+dollars per day consistently each day. Option 2 is an exponential function that starts you off with $1 dollar on the first day,
+but you make twice as much the next day, so it is an exponential function. To determine which option will make you more money,
+you first have to define option1 as its own variable and fine its value. It would be 10 days * $100. Then you would have to calculate the value of option2 through an exponential function. Once both values have been determined you can create an if else statement. First you can use an if-elsif-else statement and test if both are equal, print "Option 1 and 2 pays the same," if Option 1 is greater print out "Option 1 is better" but if that is falue, print out "Option 2 is better"
