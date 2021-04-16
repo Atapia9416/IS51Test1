@@ -37,3 +37,26 @@ else
     print option 2 is better
 
 """
+
+#sets value of option 1
+option1 = 10*100
+print("Option 1 is: ",option1)
+
+
+option2 = 0
+days = 0
+pay = 1
+
+while days < 10:
+    option2 = option2 + pay
+    pay = pay*2
+    days += 1
+
+print("Option 2 is: ", option2)
+
+if option1 == option2:
+    print("Option 1 and 2 are equal")
+elif int(option1) > int(option2):
+    print("Option 1 is better")
+else:
+    print("Option 2 is better")
