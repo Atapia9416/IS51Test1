@@ -42,16 +42,18 @@ else
 option1 = 10*100
 print("Option 1 is: ",option1)
 
-
+#setting up for for counting loop to add the pay for each day exponentially
 option2 = 0
 days = 0
 pay = 1
 
+#Adds the pay being doubled each day until day counter hits 10
 while days < 10:
     option2 = option2 + pay
     pay = pay*2
     days += 1
 
+#prints out the greater option
 print("Option 2 is: ", option2)
 
 if option1 == option2:
